@@ -1,0 +1,32 @@
+name: clonespotify
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0-257.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: SpotifyBold
+      fonts:
+        - asset: fonts/Gotham-Bold.otf
+    - family: SpotifyBook
+      fonts:
+        - asset: fonts/GothamBook.ttf
+    - family: SpotifyLight
+      fonts:
+        - asset: fonts/Gotham-Light.otf
+  assets: 
+    - assets/images/WhatsApp Image 2023-04-13 at 15.46.31.jpeg
+    - assets/images/WhatsApp Image 2023-04-14 at 15.20.29.jpeg
